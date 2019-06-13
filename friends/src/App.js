@@ -56,7 +56,7 @@ class App extends Component {
         <input
           type="number"
           placeholder="Age"
-          name="number"
+          name="age"
           onChange={this.handleChange}
           value={this.state.age}
         />
