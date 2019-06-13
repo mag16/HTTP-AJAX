@@ -18,6 +18,7 @@ class App extends Component {
     this.buttonSubmit = this.buttonSubmit;
   }
 
+  
   componentDidMount() {
     axios.get('http://localhost:5000/friends')
       .then(response => this.setState({ friends: response.data }))
